@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83705F971DC221F600F55298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705F961DC221F600F55298 /* AppDelegate.swift */; };
+		83705F991DC221F600F55298 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705F981DC221F600F55298 /* GameViewController.swift */; };
+		83705F9C1DC221F600F55298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83705F9A1DC221F600F55298 /* Main.storyboard */; };
+		83705F9F1DC221F600F55298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83705F9D1DC221F600F55298 /* LaunchScreen.storyboard */; };
+		83705FA41DC221F600F55298 /* Slider Puzzle.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 83705FA31DC221F600F55298 /* Slider Puzzle.app */; };
+		83705FAA1DC221F600F55298 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83705FA81DC221F600F55298 /* Interface.storyboard */; };
+		83705FB11DC221F600F55298 /* Slider Puzzle Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 83705FB01DC221F600F55298 /* Slider Puzzle Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		83705FB61DC221F600F55298 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705FB51DC221F600F55298 /* InterfaceController.swift */; };
+		83705FB81DC221F600F55298 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705FB71DC221F600F55298 /* ExtensionDelegate.swift */; };
+		83705FC11DC221F600F55298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705FC01DC221F600F55298 /* AppDelegate.swift */; };
+		83705FC31DC221F600F55298 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705FC21DC221F600F55298 /* GameViewController.swift */; };
+		83705FC61DC221F600F55298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83705FC41DC221F600F55298 /* Main.storyboard */; };
+		83705FCF1DC221F700F55298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705FCE1DC221F700F55298 /* AppDelegate.swift */; };
+		83705FD11DC221F700F55298 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705FD01DC221F700F55298 /* GameViewController.swift */; };
+		83705FD41DC221F700F55298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83705FD21DC221F700F55298 /* Main.storyboard */; };
+		83705FD61DC221F700F55298 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8B1DC221F600F55298 /* Actions.sks */; };
+		83705FD71DC221F700F55298 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8B1DC221F600F55298 /* Actions.sks */; };
+		83705FD81DC221F700F55298 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8B1DC221F600F55298 /* Actions.sks */; };
+		83705FD91DC221F700F55298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8C1DC221F600F55298 /* GameScene.sks */; };
+		83705FDA1DC221F700F55298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8C1DC221F600F55298 /* GameScene.sks */; };
+		83705FDB1DC221F700F55298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8C1DC221F600F55298 /* GameScene.sks */; };
+		83705FDC1DC221F700F55298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8C1DC221F600F55298 /* GameScene.sks */; };
+		83705FDD1DC221F700F55298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705F8D1DC221F600F55298 /* GameScene.swift */; };
+		83705FDE1DC221F700F55298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705F8D1DC221F600F55298 /* GameScene.swift */; };
+		83705FDF1DC221F700F55298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705F8D1DC221F600F55298 /* GameScene.swift */; };
+		83705FE01DC221F700F55298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705F8D1DC221F600F55298 /* GameScene.swift */; };
+		83705FE11DC221F700F55298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8E1DC221F600F55298 /* Assets.xcassets */; };
+		83705FE21DC221F700F55298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8E1DC221F600F55298 /* Assets.xcassets */; };
+		83705FE31DC221F700F55298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8E1DC221F600F55298 /* Assets.xcassets */; };
+		83705FE41DC221F700F55298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8E1DC221F600F55298 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83705FA51DC221F600F55298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83705F861DC221F600F55298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83705FA21DC221F600F55298;
+			remoteInfo = "watchOS App";
+		};
+		83705FB21DC221F600F55298 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83705F861DC221F600F55298 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83705FAF1DC221F600F55298;
+			remoteInfo = "watchOS Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83705FEA1DC221F700F55298 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				83705FB11DC221F600F55298 /* Slider Puzzle Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FEE1DC221F700F55298 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				83705FA41DC221F600F55298 /* Slider Puzzle.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		83705F8B1DC221F600F55298 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		83705F8C1DC221F600F55298 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		83705F8D1DC221F600F55298 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		83705F8E1DC221F600F55298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83705F931DC221F600F55298 /* Slider Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83705F961DC221F600F55298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83705F981DC221F600F55298 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		83705F9B1DC221F600F55298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83705F9E1DC221F600F55298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83705FA01DC221F600F55298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83705FA31DC221F600F55298 /* Slider Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83705FA91DC221F600F55298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		83705FAB1DC221F600F55298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83705FB01DC221F600F55298 /* Slider Puzzle Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Slider Puzzle Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83705FB51DC221F600F55298 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		83705FB71DC221F600F55298 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		83705FB91DC221F600F55298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83705FBE1DC221F600F55298 /* Slider Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83705FC01DC221F600F55298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83705FC21DC221F600F55298 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		83705FC51DC221F600F55298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83705FC71DC221F600F55298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83705FCC1DC221F600F55298 /* Slider Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83705FCE1DC221F700F55298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83705FD01DC221F700F55298 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		83705FD31DC221F700F55298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83705FD51DC221F700F55298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83705F901DC221F600F55298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FAD1DC221F600F55298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FBB1DC221F600F55298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FC91DC221F600F55298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83705F851DC221F600F55298 = {
+			isa = PBXGroup;
+			children = (
+				83705F8A1DC221F600F55298 /* Shared */,
+				83705F951DC221F600F55298 /* iOS */,
+				83705FA71DC221F600F55298 /* watchOS App */,
+				83705FB41DC221F600F55298 /* watchOS Extension */,
+				83705FBF1DC221F600F55298 /* tvOS */,
+				83705FCD1DC221F700F55298 /* macOS */,
+				83705F941DC221F600F55298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83705F8A1DC221F600F55298 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				83705F8B1DC221F600F55298 /* Actions.sks */,
+				83705F8C1DC221F600F55298 /* GameScene.sks */,
+				83705F8D1DC221F600F55298 /* GameScene.swift */,
+				83705F8E1DC221F600F55298 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		83705F941DC221F600F55298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83705F931DC221F600F55298 /* Slider Puzzle.app */,
+				83705FA31DC221F600F55298 /* Slider Puzzle.app */,
+				83705FB01DC221F600F55298 /* Slider Puzzle Extension.appex */,
+				83705FBE1DC221F600F55298 /* Slider Puzzle.app */,
+				83705FCC1DC221F600F55298 /* Slider Puzzle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83705F951DC221F600F55298 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				83705F961DC221F600F55298 /* AppDelegate.swift */,
+				83705F981DC221F600F55298 /* GameViewController.swift */,
+				83705F9A1DC221F600F55298 /* Main.storyboard */,
+				83705F9D1DC221F600F55298 /* LaunchScreen.storyboard */,
+				83705FA01DC221F600F55298 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		83705FA71DC221F600F55298 /* watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				83705FA81DC221F600F55298 /* Interface.storyboard */,
+				83705FAB1DC221F600F55298 /* Info.plist */,
+			);
+			path = "watchOS App";
+			sourceTree = "<group>";
+		};
+		83705FB41DC221F600F55298 /* watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				83705FB51DC221F600F55298 /* InterfaceController.swift */,
+				83705FB71DC221F600F55298 /* ExtensionDelegate.swift */,
+				83705FB91DC221F600F55298 /* Info.plist */,
+			);
+			path = "watchOS Extension";
+			sourceTree = "<group>";
+		};
+		83705FBF1DC221F600F55298 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				83705FC01DC221F600F55298 /* AppDelegate.swift */,
+				83705FC21DC221F600F55298 /* GameViewController.swift */,
+				83705FC41DC221F600F55298 /* Main.storyboard */,
+				83705FC71DC221F600F55298 /* Info.plist */,
+			);
+			path = tvOS;
+			sourceTree = "<group>";
+		};
+		83705FCD1DC221F700F55298 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				83705FCE1DC221F700F55298 /* AppDelegate.swift */,
+				83705FD01DC221F700F55298 /* GameViewController.swift */,
+				83705FD21DC221F700F55298 /* Main.storyboard */,
+				83705FD51DC221F700F55298 /* Info.plist */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83705F921DC221F600F55298 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83705FEF1DC221F700F55298 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				83705F8F1DC221F600F55298 /* Sources */,
+				83705F901DC221F600F55298 /* Frameworks */,
+				83705F911DC221F600F55298 /* Resources */,
+				83705FEE1DC221F700F55298 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83705FA61DC221F600F55298 /* PBXTargetDependency */,
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = 83705F931DC221F600F55298 /* Slider Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83705FA21DC221F600F55298 /* watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83705FEB1DC221F700F55298 /* Build configuration list for PBXNativeTarget "watchOS App" */;
+			buildPhases = (
+				83705FA11DC221F600F55298 /* Resources */,
+				83705FEA1DC221F700F55298 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83705FB31DC221F600F55298 /* PBXTargetDependency */,
+			);
+			name = "watchOS App";
+			productName = "watchOS App";
+			productReference = 83705FA31DC221F600F55298 /* Slider Puzzle.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		83705FAF1DC221F600F55298 /* watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83705FE71DC221F700F55298 /* Build configuration list for PBXNativeTarget "watchOS Extension" */;
+			buildPhases = (
+				83705FAC1DC221F600F55298 /* Sources */,
+				83705FAD1DC221F600F55298 /* Frameworks */,
+				83705FAE1DC221F600F55298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS Extension";
+			productName = "watchOS Extension";
+			productReference = 83705FB01DC221F600F55298 /* Slider Puzzle Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		83705FBD1DC221F600F55298 /* tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83705FF21DC221F700F55298 /* Build configuration list for PBXNativeTarget "tvOS" */;
+			buildPhases = (
+				83705FBA1DC221F600F55298 /* Sources */,
+				83705FBB1DC221F600F55298 /* Frameworks */,
+				83705FBC1DC221F600F55298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOS;
+			productName = tvOS;
+			productReference = 83705FBE1DC221F600F55298 /* Slider Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83705FCB1DC221F600F55298 /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83705FF51DC221F700F55298 /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				83705FC81DC221F600F55298 /* Sources */,
+				83705FC91DC221F600F55298 /* Frameworks */,
+				83705FCA1DC221F600F55298 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = 83705FCC1DC221F600F55298 /* Slider Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83705F861DC221F600F55298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Pandamonia LLC";
+				TargetAttributes = {
+					83705F921DC221F600F55298 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 94C3W2AV74;
+						ProvisioningStyle = Automatic;
+					};
+					83705FA21DC221F600F55298 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 94C3W2AV74;
+						ProvisioningStyle = Automatic;
+					};
+					83705FAF1DC221F600F55298 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 94C3W2AV74;
+						ProvisioningStyle = Automatic;
+					};
+					83705FBD1DC221F600F55298 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 94C3W2AV74;
+						ProvisioningStyle = Automatic;
+					};
+					83705FCB1DC221F600F55298 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 94C3W2AV74;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 83705F891DC221F600F55298 /* Build configuration list for PBXProject "Slider Puzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83705F851DC221F600F55298;
+			productRefGroup = 83705F941DC221F600F55298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83705F921DC221F600F55298 /* iOS */,
+				83705FA21DC221F600F55298 /* watchOS App */,
+				83705FAF1DC221F600F55298 /* watchOS Extension */,
+				83705FBD1DC221F600F55298 /* tvOS */,
+				83705FCB1DC221F600F55298 /* macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83705F911DC221F600F55298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83705FD91DC221F700F55298 /* GameScene.sks in Resources */,
+				83705F9C1DC221F600F55298 /* Main.storyboard in Resources */,
+				83705FD61DC221F700F55298 /* Actions.sks in Resources */,
+				83705F9F1DC221F600F55298 /* LaunchScreen.storyboard in Resources */,
+				83705FE11DC221F700F55298 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FA11DC221F600F55298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83705FE21DC221F700F55298 /* Assets.xcassets in Resources */,
+				83705FAA1DC221F600F55298 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FAE1DC221F600F55298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83705FDA1DC221F700F55298 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FBC1DC221F600F55298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83705FC61DC221F600F55298 /* Main.storyboard in Resources */,
+				83705FDB1DC221F700F55298 /* GameScene.sks in Resources */,
+				83705FE31DC221F700F55298 /* Assets.xcassets in Resources */,
+				83705FD71DC221F700F55298 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FCA1DC221F600F55298 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83705FD41DC221F700F55298 /* Main.storyboard in Resources */,
+				83705FDC1DC221F700F55298 /* GameScene.sks in Resources */,
+				83705FE41DC221F700F55298 /* Assets.xcassets in Resources */,
+				83705FD81DC221F700F55298 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83705F8F1DC221F600F55298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83705FDD1DC221F700F55298 /* GameScene.swift in Sources */,
+				83705F991DC221F600F55298 /* GameViewController.swift in Sources */,
+				83705F971DC221F600F55298 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FAC1DC221F600F55298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83705FDE1DC221F700F55298 /* GameScene.swift in Sources */,
+				83705FB81DC221F600F55298 /* ExtensionDelegate.swift in Sources */,
+				83705FB61DC221F600F55298 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FBA1DC221F600F55298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83705FDF1DC221F700F55298 /* GameScene.swift in Sources */,
+				83705FC31DC221F600F55298 /* GameViewController.swift in Sources */,
+				83705FC11DC221F600F55298 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83705FC81DC221F600F55298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83705FE01DC221F700F55298 /* GameScene.swift in Sources */,
+				83705FD11DC221F700F55298 /* GameViewController.swift in Sources */,
+				83705FCF1DC221F700F55298 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83705FA61DC221F600F55298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83705FA21DC221F600F55298 /* watchOS App */;
+			targetProxy = 83705FA51DC221F600F55298 /* PBXContainerItemProxy */;
+		};
+		83705FB31DC221F600F55298 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83705FAF1DC221F600F55298 /* watchOS Extension */;
+			targetProxy = 83705FB21DC221F600F55298 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83705F9A1DC221F600F55298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83705F9B1DC221F600F55298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83705F9D1DC221F600F55298 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83705F9E1DC221F600F55298 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		83705FA81DC221F600F55298 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83705FA91DC221F600F55298 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		83705FC41DC221F600F55298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83705FC51DC221F600F55298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83705FD21DC221F700F55298 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83705FD31DC221F700F55298 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83705FE51DC221F700F55298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83705FE61DC221F700F55298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		83705FE81DC221F700F55298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "Slider Puzzle Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		83705FE91DC221F700F55298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				INFOPLIST_FILE = "watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "Slider Puzzle Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		83705FEC1DC221F700F55298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				IBSC_MODULE = Slider_Puzzle_Extension;
+				INFOPLIST_FILE = "watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle.watchkitapp";
+				PRODUCT_NAME = "Slider Puzzle";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		83705FED1DC221F700F55298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				IBSC_MODULE = Slider_Puzzle_Extension;
+				INFOPLIST_FILE = "watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle.watchkitapp";
+				PRODUCT_NAME = "Slider Puzzle";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		83705FF01DC221F700F55298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle";
+				PRODUCT_NAME = "Slider Puzzle";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83705FF11DC221F700F55298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle";
+				PRODUCT_NAME = "Slider Puzzle";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83705FF31DC221F700F55298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle";
+				PRODUCT_NAME = "Slider Puzzle";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		83705FF41DC221F700F55298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				INFOPLIST_FILE = tvOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle";
+				PRODUCT_NAME = "Slider Puzzle";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83705FF61DC221F700F55298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle";
+				PRODUCT_NAME = "Slider Puzzle";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		83705FF71DC221F700F55298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 94C3W2AV74;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "us.pandamonia.Slider-Puzzle";
+				PRODUCT_NAME = "Slider Puzzle";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83705F891DC221F600F55298 /* Build configuration list for PBXProject "Slider Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83705FE51DC221F700F55298 /* Debug */,
+				83705FE61DC221F700F55298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83705FE71DC221F700F55298 /* Build configuration list for PBXNativeTarget "watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83705FE81DC221F700F55298 /* Debug */,
+				83705FE91DC221F700F55298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83705FEB1DC221F700F55298 /* Build configuration list for PBXNativeTarget "watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83705FEC1DC221F700F55298 /* Debug */,
+				83705FED1DC221F700F55298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83705FEF1DC221F700F55298 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83705FF01DC221F700F55298 /* Debug */,
+				83705FF11DC221F700F55298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83705FF21DC221F700F55298 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83705FF31DC221F700F55298 /* Debug */,
+				83705FF41DC221F700F55298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83705FF51DC221F700F55298 /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83705FF61DC221F700F55298 /* Debug */,
+				83705FF71DC221F700F55298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83705F861DC221F600F55298 /* Project object */;
+}
