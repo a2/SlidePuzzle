@@ -22,13 +22,6 @@
 		83705FCF1DC221F700F55298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705FCE1DC221F700F55298 /* AppDelegate.swift */; };
 		83705FD11DC221F700F55298 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705FD01DC221F700F55298 /* GameViewController.swift */; };
 		83705FD41DC221F700F55298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83705FD21DC221F700F55298 /* Main.storyboard */; };
-		83705FD61DC221F700F55298 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8B1DC221F600F55298 /* Actions.sks */; };
-		83705FD71DC221F700F55298 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8B1DC221F600F55298 /* Actions.sks */; };
-		83705FD81DC221F700F55298 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8B1DC221F600F55298 /* Actions.sks */; };
-		83705FD91DC221F700F55298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8C1DC221F600F55298 /* GameScene.sks */; };
-		83705FDA1DC221F700F55298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8C1DC221F600F55298 /* GameScene.sks */; };
-		83705FDB1DC221F700F55298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8C1DC221F600F55298 /* GameScene.sks */; };
-		83705FDC1DC221F700F55298 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8C1DC221F600F55298 /* GameScene.sks */; };
 		83705FDD1DC221F700F55298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705F8D1DC221F600F55298 /* GameScene.swift */; };
 		83705FDE1DC221F700F55298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705F8D1DC221F600F55298 /* GameScene.swift */; };
 		83705FDF1DC221F700F55298 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83705F8D1DC221F600F55298 /* GameScene.swift */; };
@@ -82,8 +75,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		83705F8B1DC221F600F55298 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		83705F8C1DC221F600F55298 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		83705F8D1DC221F600F55298 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		83705F8E1DC221F600F55298 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83705F931DC221F600F55298 /* Slider Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slider Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,8 +150,6 @@
 		83705F8A1DC221F600F55298 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				83705F8B1DC221F600F55298 /* Actions.sks */,
-				83705F8C1DC221F600F55298 /* GameScene.sks */,
 				83705F8D1DC221F600F55298 /* GameScene.swift */,
 				83705F8E1DC221F600F55298 /* Assets.xcassets */,
 			);
@@ -386,9 +375,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83705FD91DC221F700F55298 /* GameScene.sks in Resources */,
 				83705F9C1DC221F600F55298 /* Main.storyboard in Resources */,
-				83705FD61DC221F700F55298 /* Actions.sks in Resources */,
 				83705F9F1DC221F600F55298 /* LaunchScreen.storyboard in Resources */,
 				83705FE11DC221F700F55298 /* Assets.xcassets in Resources */,
 			);
@@ -407,7 +394,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83705FDA1DC221F700F55298 /* GameScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83705FC61DC221F600F55298 /* Main.storyboard in Resources */,
-				83705FDB1DC221F700F55298 /* GameScene.sks in Resources */,
 				83705FE31DC221F700F55298 /* Assets.xcassets in Resources */,
-				83705FD71DC221F700F55298 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,9 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83705FD41DC221F700F55298 /* Main.storyboard in Resources */,
-				83705FDC1DC221F700F55298 /* GameScene.sks in Resources */,
 				83705FE41DC221F700F55298 /* Assets.xcassets in Resources */,
-				83705FD81DC221F700F55298 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
