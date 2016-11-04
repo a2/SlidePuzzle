@@ -6,24 +6,19 @@
 //  Copyright © 2016 Pandamonia LLC. All rights reserved.
 //
 
-import UIKit
 import SpriteKit
-import GameplayKit
+import UIKit
 
 class GameViewController: UIViewController {
+    let scene = GameScene()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let scene = GameScene()
-
         // Present the scene
-        let skView = self.view as! SKView
-        skView.presentScene(scene)
-        
+        let skView = view as! SKView
         skView.ignoresSiblingOrder = true
-        skView.showsFPS = true
-        skView.showsNodeCount = true
+        skView.presentScene(scene)
     }
 
     override var shouldAutorotate: Bool {
@@ -31,19 +26,14 @@ class GameViewController: UIViewController {
     }
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
+        if traitCollection.userInterfaceIdiom == .phone {
             return .allButUpsideDown
         } else {
             return .all
         }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
-
-    override var prefersStatusBarHidden: Bool {
-        return true
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
 }

@@ -30,6 +30,10 @@
 		83705FE21DC221F700F55298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8E1DC221F600F55298 /* Assets.xcassets */; };
 		83705FE31DC221F700F55298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8E1DC221F600F55298 /* Assets.xcassets */; };
 		83705FE41DC221F700F55298 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83705F8E1DC221F600F55298 /* Assets.xcassets */; };
+		839EB2BE1DC22BD60059BCF5 /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839EB2BD1DC22BD60059BCF5 /* Array+Shuffle.swift */; };
+		839EB2BF1DC22BD60059BCF5 /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839EB2BD1DC22BD60059BCF5 /* Array+Shuffle.swift */; };
+		839EB2C01DC22BD60059BCF5 /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839EB2BD1DC22BD60059BCF5 /* Array+Shuffle.swift */; };
+		839EB2C11DC22BD60059BCF5 /* Array+Shuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839EB2BD1DC22BD60059BCF5 /* Array+Shuffle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +104,7 @@
 		83705FD01DC221F700F55298 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		83705FD31DC221F700F55298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83705FD51DC221F700F55298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839EB2BD1DC22BD60059BCF5 /* Array+Shuffle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Shuffle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,8 +155,9 @@
 		83705F8A1DC221F600F55298 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				83705F8D1DC221F600F55298 /* GameScene.swift */,
+				839EB2BD1DC22BD60059BCF5 /* Array+Shuffle.swift */,
 				83705F8E1DC221F600F55298 /* Assets.xcassets */,
+				83705F8D1DC221F600F55298 /* GameScene.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -318,7 +324,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Pandamonia LLC";
 				TargetAttributes = {
 					83705F921DC221F600F55298 = {
@@ -423,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83705FDD1DC221F700F55298 /* GameScene.swift in Sources */,
+				839EB2BE1DC22BD60059BCF5 /* Array+Shuffle.swift in Sources */,
 				83705F991DC221F600F55298 /* GameViewController.swift in Sources */,
 				83705F971DC221F600F55298 /* AppDelegate.swift in Sources */,
 			);
@@ -433,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83705FDE1DC221F700F55298 /* GameScene.swift in Sources */,
+				839EB2BF1DC22BD60059BCF5 /* Array+Shuffle.swift in Sources */,
 				83705FB81DC221F600F55298 /* ExtensionDelegate.swift in Sources */,
 				83705FB61DC221F600F55298 /* InterfaceController.swift in Sources */,
 			);
@@ -443,6 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83705FDF1DC221F700F55298 /* GameScene.swift in Sources */,
+				839EB2C01DC22BD60059BCF5 /* Array+Shuffle.swift in Sources */,
 				83705FC31DC221F600F55298 /* GameViewController.swift in Sources */,
 				83705FC11DC221F600F55298 /* AppDelegate.swift in Sources */,
 			);
@@ -453,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83705FE01DC221F700F55298 /* GameScene.swift in Sources */,
+				839EB2C11DC22BD60059BCF5 /* Array+Shuffle.swift in Sources */,
 				83705FD11DC221F700F55298 /* GameViewController.swift in Sources */,
 				83705FCF1DC221F700F55298 /* AppDelegate.swift in Sources */,
 			);
@@ -535,6 +545,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -581,6 +592,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -788,6 +800,7 @@
 				83705FE91DC221F700F55298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83705FEB1DC221F700F55298 /* Build configuration list for PBXNativeTarget "watchOS App" */ = {
 			isa = XCConfigurationList;
@@ -796,6 +809,7 @@
 				83705FED1DC221F700F55298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83705FEF1DC221F700F55298 /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
@@ -804,6 +818,7 @@
 				83705FF11DC221F700F55298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83705FF21DC221F700F55298 /* Build configuration list for PBXNativeTarget "tvOS" */ = {
 			isa = XCConfigurationList;
@@ -812,6 +827,7 @@
 				83705FF41DC221F700F55298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83705FF51DC221F700F55298 /* Build configuration list for PBXNativeTarget "macOS" */ = {
 			isa = XCConfigurationList;
@@ -820,6 +836,7 @@
 				83705FF71DC221F700F55298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
